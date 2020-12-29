@@ -1,0 +1,26 @@
+@import './variables.scss';
+@import './mixin.scss';
+
+html,
+body .app {
+  color: #333333;
+  font-family: Arial, Helvetica, 'STHeiti STXihei', 'Microsoft YaHei', Tohoma, sans-serif;
+  background-color: $background-color;
+}
+
+.app-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background: white;
+}
+.layout-content{
+  position: absolute;
+  top: 0;
+  bottom: 50px;
+  width: 100%;
+  overflow-y: auto;
+  &::-webkit-full-screen{
+    width: 0;
+  }
+}

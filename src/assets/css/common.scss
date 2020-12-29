@@ -1,0 +1,71 @@
+.el-text-brand {
+  color: #409EFF;
+}
+
+.el-text-danger {
+  color: #F56C6C;
+}
+
+.el-text-warning {
+  color: #E6A23C;
+}
+
+.el-text-success {
+  color: #67C23A;
+}
+
+.el-text-info {
+  color: #909399;
+}
+
+.flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-row-center{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.flex-row-center-between{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flex-row-center-around{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.flex-row-center-end{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.flex-column-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.flex-wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+.single-line{
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.two-line{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}
